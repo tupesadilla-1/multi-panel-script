@@ -19,7 +19,7 @@ echo -e "${CYAN}Instalando dependencias necesarias...${RESET}"
 apt install -y git curl
 
 echo -e "${CYAN}Clonando el proyecto desde GitHub...${RESET}"
-git clone https://github.com/tuusuario/multi-panel-script.git || { echo -e "${RED}Error al clonar el repositorio${RESET}"; exit 1; }
+git clone https://github.com/tupesadilla-1/multi-panel-script.git || { echo -e "${RED}Error al clonar el repositorio${RESET}"; exit 1; }
 
 cd multi-panel-script
 
